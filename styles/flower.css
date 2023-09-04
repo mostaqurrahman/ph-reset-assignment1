@@ -149,6 +149,7 @@ body {
     display: flex;
     gap: 15px;
     text-align: center;
+    justify-content: center;
 }
 
 .instagram-img {
@@ -158,18 +159,22 @@ body {
 /*----------------------------
       Facebook Section
 ---------------------------*/
-.facebook{
+.facebook {
     margin: 150px 180px;
 }
-.fb-flower-container{
+
+.fb-flower-container {
     display: flex;
     gap: 15px;
     text-align: center;
+    justify-content: center;
 }
-.fb-pic{
+
+.fb-pic {
     max-width: 280px;
     border-radius: 3px;
 }
+
 /*------------------------
      latest Deal
 -----------------------*/
@@ -207,4 +212,35 @@ body {
 
 #btn-subscribe {
     padding: 14px 30px;
+}
+
+/*---------------------------
+      Footer Section
+--------------------------*/
+
+.footer {
+    background: #111010;
+    text-align: center;
+    padding: 120px ;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.footer-rights {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
