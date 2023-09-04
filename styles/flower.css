@@ -121,8 +121,34 @@ body {
     gap: 100px;
     padding: 100px 180px;
     align-items: center;
+    justify-content: center;
 }
 .hot-deal-content{
     text-align: center;
     align-items: center;
+}
+
+/*--------------------------
+     Instagram Section
+-------------------------*/
+.instagram{
+    margin: 150px 180px 0;
+}
+.instagram-img-container{
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    justify-content: center;
+}
+.insta-image-1{
+    max-width: 280px;
+}
+.insta-image-2{
+    max-width: 280px;
+}
+.insta-image-3{
+    max-width: 280px;
+}
+.insta-image-4{
+    max-width: 280px;
 }
