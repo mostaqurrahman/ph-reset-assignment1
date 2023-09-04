@@ -30,6 +30,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 /*--------------------------
@@ -106,4 +107,22 @@ body {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+/*---------------------------------
+        Hot Deal Section
+---------------------------------*/
+
+.hot-deal{
+    margin-top: 150px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-container{
+    display: flex;
+    gap: 100px;
+    padding: 100px 180px;
+    align-items: center;
+}
+.hot-deal-content{
+    text-align: center;
+    align-items: center;
 }
