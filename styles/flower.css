@@ -8,7 +8,7 @@ body {
 
 .btn-primary {
     border: 0;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 20px 40px;
     background: #E55473;
     color: #FFF;
@@ -19,25 +19,23 @@ body {
 /*--------------------------
       Header Section
 -------------------------*/
-.header {
+.header{
     display: flex;
-    gap: 100px;
+    gap: 40px;
     justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
-    padding: 50px 180px 0;
-    /* max-width: 1920px; */
+    padding: 0px 180px 0px;
 }
 .header-content{
-    margin-top: 100px;
     align-items: center;
+    padding-top: 90px;
 }
 
 .header-title {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
-    padding-right: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .header-description {
@@ -45,9 +43,14 @@ body {
     font-size: 18px;
     font-weight: 400;
     padding-right: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    width: 500px;
 }
-.header-pic{
-    margin-bottom: 0;
-    position: block;
+.profile-pic{
+    width: 500px;
+    padding-top: 50px;
 }
+
+/*-------------------------------
+    Featured Flowers Section
+--------------------------------*/
